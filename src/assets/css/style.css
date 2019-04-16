@@ -1,0 +1,60 @@
+body{
+    background: whitesmoke;
+}
+#sidebar{
+    height: 100%;
+    background: rgba(0,0,0, 0.9);
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 0;
+    transition: .5s;
+    color: white !important;
+    z-index: 20000;
+}
+#content{
+    transition: .5s;
+}
+.btn-open span{
+    background: white;
+    border: 2px solid white;
+    width: 10px;
+    margin: 3px;
+}
+.navbar-brand{
+    font-family: pacifico;
+    color: white ;
+    text-decoration: none;
+}
+.home{
+    background: url('../img/home.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+	flex-direction: column;
+    justify-content: center;
+}
+.project{
+    background: rgba(255, 255, 255, 0.9);
+}
+.badge{
+    font-family: source sans pro;
+    padding: 5px;
+    letter-spacing: 0.5px;
+}
+.welcome{
+    color: white;
+    padding: 20%;
+    text-align: right;
+}
+.bgtx{
+    font-family: poiret one !important;
+    font-size: 35px !important;
+    font-weight: bold;
+}
+.welcome .smtx{
+    font-family: poiret one;
+    font-size: 25px;
+}
